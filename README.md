@@ -1,10 +1,13 @@
 # tackle-integration-tests
 
-$ python3.9 -m venv
+$ python3.9 -m venv ./venv/
+$ source /venv/bin/activate
 
-$ (venv) pip install -r requirements.txt
+From inside the virtual env:
 
-Get token 
+$ pip install -r requirements.txt
+
+To Get token:
 
 $ python3.9 get-token.py --user=admin --password=XXXX --host <tackle-ui-url (including http:// Or https://)
 
