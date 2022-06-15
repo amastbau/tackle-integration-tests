@@ -9,5 +9,5 @@ $ pip install -r requirements.txt
 
 To Get token:
 
-$ python3.9 get-token.py --user=admin --password=XXXX --host <tackle-ui-url (including http:// Or https://)
+$ python3.9 get-token.py --user=admin --password=XXXX --host <tackle-url (including http:// Or https://)>
 
