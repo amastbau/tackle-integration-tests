@@ -2,7 +2,7 @@
 
 $ python3.9 -m venv ./venv/
 
-$ source /venv/bin/activate
+$ source venv/bin/activate
 
 From inside the virtual env:
 
