@@ -26,4 +26,4 @@ def getKeycloakToken(host, username, password, client_id='tackle-ui', realm='tac
 
 
 if __name__ == "__main__":
-    print(getKeycloakToken(host=args.host, username=args.user, password=args.password))
+    print(f"Bearer {getKeycloakToken(host=args.host, username=args.user, password=args.password)}")
