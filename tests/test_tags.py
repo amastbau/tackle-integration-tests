@@ -7,7 +7,7 @@ def test_tags():
     c = api.api_client.configuration
     c.host = 'http://192.168.39.186/hub/'
     c.api_key[
-        'Authorization'] = get_key_cloak_token(username="admin", password="Dog8code", host="http://192.168.39.186")
+        'Authorization'] = get_key_cloak_token(username="admin", password="xxx", host="http://xxx")
     c.api_key_prefix['Authorization'] = 'Bearer'
     d = api.tags_get()
     pass
