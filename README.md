@@ -20,4 +20,9 @@ $ python3.9  -m pytest /home/amos/git/tackle-integration-tests/tests/test_tags.p
 ### Just Get token
 
 $ python3.9 get-token.py --user=admin --password=XXXX --host <tackle-url> (including http:// Or https:// and without no closing /)
+ 
+### How to Contribute
+TBD
+at this point, simply branch and send PRs
+the is a tox file, so you can try running tox, it might have not been tested yet.
 
