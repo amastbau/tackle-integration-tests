@@ -10,7 +10,15 @@ $ pip install -r requirements.txt
 
 ## Run Tests
 
-From inside the virtual env:
+### Using podman docker
+
+$ podman rmi tackle-integration-tests # If needed
+$ podman build -f Dockerfile -t tackle-integration-tests &&
+  podman run -e TACKLE_USER='' -e TACKLE_PASSWORD='' -e TACKLE_URL='http://' tackle-integration-tests
+
+
+
+### From inside the virtual env:
 
 $ export TACKLE_USER=<user> && export TACKLE_USER=<user> && export TACKLE_PASSWORD=<pass> && export TACKLE_URL=<url> (including http:// Or https:// and without no closing /)
  
