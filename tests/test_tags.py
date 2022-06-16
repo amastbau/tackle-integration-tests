@@ -1,11 +1,14 @@
 import logging
 
+import pytest
+
 import swagger_client
 import os
 
 from helpers import get_key_cloak_token
 
 
+@pytest.mark.smoke
 def test_default_tags():
     api = swagger_client.api.get_api.GetApi()  # noqa: E501
     c = api.api_client.configuration
