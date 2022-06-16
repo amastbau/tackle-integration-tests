@@ -13,6 +13,7 @@ $ pip install -r requirements.txt
 ### Using podman docker
 
 $ podman rmi tackle-integration-tests # If needed
+
 $ podman build -f Dockerfile -t tackle-integration-tests &&
   podman run -e TACKLE_USER='' -e TACKLE_PASSWORD='' -e TACKLE_URL='http://' tackle-integration-tests
 
